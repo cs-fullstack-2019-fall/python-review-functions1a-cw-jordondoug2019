@@ -36,6 +36,7 @@ def prob4(): #second function that has no parameters
     noParam()
 
 def noParam(): #third function that calls the greeting function
+    # !! this could easily be user input instead of hard coded 
     print(greeting("howdy"))
 
 def greeting(howdy): #fourth function that displays howdy world
@@ -62,7 +63,7 @@ var1= int(input("Enter a number:  "))
 var2=int(input("Enter a number:  "))
 
 # r1,r2,r3,r4=acceptNums(var1,var2) #seperate different returns
-
+# !! : you have to print these
 f" The sum of {var1} + {var2} is {sum} \n"
 f"The difference of {var1} - {var2} is {sub} \n "
 f" The product of {var1} * {var2} is {multi}\n "
